@@ -1,0 +1,149 @@
+/* for all */
+
+* {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* header and banner section starts */
+
+.banner {
+    background-image: url('../images/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.banner-info {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-info img {
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.banner-des {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.banner-btn {
+    border-radius: 8px;
+
+    background: rgb(13, 19, 33);
+    padding: 20px 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+/* header and banner section ends */
+
+
+
+
+/* main starts */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+/* why section starts  */
+
+.why {
+    padding: 80px 95px;
+    margin: 100px 0;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.02);
+
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.section-des {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+}
+
+.content-item-one {
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    border-radius: 16px;
+
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin-top: 45px;
+}
+
+.item-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.item-des {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.content-btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 10px 20px;
+    color: #0D1321;
+    font-size: 20px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.content-item-two {
+    padding: 48px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    border-radius: 16px;
+
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin-top: 45px;
+}
+
+
+/* why section ends  */
+
+
+
+
+
+/* main ends */
