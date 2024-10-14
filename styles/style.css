@@ -145,5 +145,36 @@ main {
 
 
 
+/* inspire section starts */
+
+.inspire {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.inspire-video {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+/* inspire section ends */
+
+
+
+
+
+/* target section starts */
+
+
+
+
+/* target section ends */
+
+
 
 /* main ends */
