@@ -170,7 +170,59 @@ main {
 
 /* target section starts */
 
+.target{
+    margin: 100px 0;
+}
 
+.target-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 48px;
+}
+
+.target-item {
+    width: 100%;
+    padding: 40px;
+    height: 300px;
+}
+
+#one {
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+}
+
+#two {
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+}
+
+#three {
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.target-item-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.target-item-des {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.target-item a {
+    color: #0D1321;
+}
 
 
 /* target section ends */
